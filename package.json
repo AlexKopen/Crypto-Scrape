@@ -1,0 +1,19 @@
+{
+  "name": "Crypto Scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crypto-scrape.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dateformat": "^3.0.2",
+    "fetch": "^1.1.0",
+    "line-by-line": "^0.1.5",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Kopen",
+  "license": "ISC"
+}
