@@ -21,8 +21,14 @@ CREATE TABLE `prices` (
 )
 ```
 
+Get them young dependencies
+
+```
+npm install
+```
+
 Let er rip
 
 ```
-node crypto-scrape.js
+npm start
 ```

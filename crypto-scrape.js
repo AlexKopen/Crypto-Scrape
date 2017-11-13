@@ -19,7 +19,7 @@ con.connect(function(err) {
 
 var totalProcessed = 0;
 
-// Parse through all URLs in all-currencies.txt
+// Parse through all URLs in currencies.txt
 function gatherData() {
 	lineReader = new lineByLineReader('currencies.txt');
 	const sql = 'INSERT INTO crypto_data.prices (symbol, date, value) VALUES ?';
@@ -52,4 +52,4 @@ function gatherData() {
 	});
 }
 
-// TODO: Close the SQL connection among completion of all processed lines in all-currencies.txt
+// TODO: Close the SQL connection among completion of all processed lines in currencies.txt
