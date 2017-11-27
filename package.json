@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node crypto-scrape.js"
+    "start": "node crypto-scrape.js",
+    "start:new": "node ./crypto-scrape-new.js"
   },
   "author": "Alex Kopen",
   "license": "ISC"

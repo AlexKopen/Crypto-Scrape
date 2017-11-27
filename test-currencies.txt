@@ -1,0 +1,3 @@
+https://coinmarketcap.com/currencies/bitcoin/historical-data/?start=20000101&end=21000101
+https://coinmarketcap.com/currencies/ethereum/historical-data/?start=20000101&end=21000101
+https://coinmarketcap.com/currencies/bitcoin-cash/historical-data/?start=20000101&end=21000101
